@@ -1,4 +1,5 @@
 <?
+//test
 $strSQL = "SELECT cst.customerid, cstobj.name, dist.description, 
 
                                 (CASE WHEN cnt.buildingnumber IS NULL THEN '' ELSE cnt.buildingnumber END) || (CASE WHEN cnt.streetname IS NULL THEN '' ELSE cnt.streetname END) || ', ' || (CASE WHEN dist.description IS NULL THEN '' ELSE dist.description END) || ', ' || (CASE WHEN city.description IS NULL THEN '' ELSE city.description END) || ', Flat : ' ||(CASE WHEN cnt.flatnumber IS NULL THEN '' ELSE cnt.flatnumber END)  AS address,
