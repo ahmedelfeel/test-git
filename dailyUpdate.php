@@ -8,6 +8,7 @@ $settings = parse_ini_file('configuration/server_settings.php');
 
 foreach($settings as $key => $value) {
 		define($key, $value);
+		// Test Git
 	}
 
 
